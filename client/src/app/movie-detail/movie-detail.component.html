@@ -1,0 +1,25 @@
+
+
+
+<app-navbar></app-navbar>
+ <div class="container" style="margin-top: 50px">
+
+  	<div class="row" responsive-sm-wrap *ngIf="ref">
+  	  			 
+  			 
+              <div class="container col-md-4 col-md-4 col-md-4" *ngFor=" let movie of ref">  	   
+              	   {{movie.title}}<br>
+              	     <img src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}"><br>
+              	   {{movie.release_date}}  
+                   votes: {{movie.vote_count}}
+              <button  (click)="movieDelete(movie)">Delete List</button>
+
+              <button  (click)="onLikeEvent(movie)">Like</button>
+ 
+              </div>
+  			
+  
+   
+
+  	</div>
+  </div>

@@ -1,0 +1,16 @@
+
+<app-navbar>
+</app-navbar>
+<div class="container">
+<div class="search">
+  <form class="form-inline my-2 my-md-0">
+    
+<input class="form-control mr-sm-2" [(ngModel)]="movie" name="first" placeholder="Movie Name">
+
+  <button class="btn btn-outline-success my-2 my-sm-0" (click)= movieSearch()> Search</button>
+  </form>
+
+ 
+</div>
+</div>
+  <app-movie-list   [user]="movie"></app-movie-list>

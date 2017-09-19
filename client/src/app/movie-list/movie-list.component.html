@@ -1,0 +1,18 @@
+
+
+
+<div class = "container" *ngIf="user">
+	<div class = "row" responsive-sm wrap  >
+		<div class="col-md-4 col-md-4 col-md-4" *ngFor=" let search of user.results | paginate:{ itemsPerPage:9, currentPage:p }"> 
+			<img src="https://image.tmdb.org/t/p/w300/{{search.poster_path}}"><br>
+			<p class="text-align:left">Title: {{search.title}}</p>
+			<p> Rating: {{search.vote_average}}</p>
+			<p>Release Date: {{search.release_date}}</p>
+			<p class="text-align:left">
+			<button class="btn btn-primary" (click)="movieAdd(search)"> Favourite List</button></p>
+		</div>
+		
+	</div>
+	<pagination-controls class="pagination"*ngIf="user.results" (pageChange)="p=$event"></pagination-controls>
+</div>
+

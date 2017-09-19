@@ -1,0 +1,263 @@
+/*Increase the Size of the Video in Review*/
+.col-md-4 {
+	padding-top: 20px;
+	color: red;
+}
+/*Select your region sizing*/
+.btn-danger{
+	border: 9px solid transparent;
+}
+/*Adjust the Second navbar */
+.navbar{
+	margin-bottom: 0;
+	font-size:16px;
+	}
+/*Fix the top navbar and provide it with a color*/
+.navbar-fixed-top{
+	margin-top: 0;
+	background-color: #101010;
+}
+/*Slider Start*/
+/*#myCarousel {
+	  width: 100%;
+		margin-top: 40px;
+		margin-right: 10px;
+	}
+
+	.carousel-caption {
+		font-size: 17px;
+		text-shadow: ;
+		color: grey;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 30px;
+		color: grey;
+	}
+
+	
+	#myCarousel .item {
+		height: 530px;		
+	}
+
+	.item {
+		height: 100%;
+		width: 100%;
+	}
+
+	#slide1 {
+		background: url('./assets/Img/Bah.jpg') top center no-repeat;
+		background-size: 100% 530px;
+	}
+	
+	#slide2 {
+		background: url('./assets/Img/Tubelight_landscape.jpg') top center no-repeat;
+		background-size: 100% 530px;
+	}
+	
+	#slide3 {
+		background: url('./assets/Img/GI.jpg') top center no-repeat;
+		background-size: 100% 530px;
+	}
+
+	.item img{
+
+		width:95%;
+		height: 390px;
+	}*/
+/*Slider Ends*/
+
+/*Adjust the size of Logo*/
+	.navbar-brand{
+		margin-top: 5px;
+		font-size: 32px;
+	}
+
+/*Adjust the Search bar*/
+
+	.navbar-form main {
+		margin-bottom: 1px;
+	}
+
+	form-group{
+		float: right;
+	}
+
+	
+/*Adjust the heading*/
+	h1{
+
+		text-align: center;
+		margin-bottom: 20px;
+
+	}
+
+	.container{
+		margin-top: 0;
+	}
+/*Footer started*/
+	.thumbnail img {
+		width: 100%;
+		height: 300px;
+	}
+
+	.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ 		}
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ .media img {
+ 	width: 100%;
+ 	height:90px;
+ }
+
+ .media-img {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.media-img .img-overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    height: 100%;
+    opacity: 0;
+    padding-top: 50%;
+    position: absolute;
+    text-align: center;
+    transition: opacity 0.3s ease-out 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 4;
+}
+
+.media div.media-img img {
+    height: auto;
+    transform: scale(1, 1);
+    transition-duration: 2000ms;
+    transition-timing-function: ease-out;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.media-img img {
+    width: 100%;
+}
+
+.media div.pull-left {
+    margin-left: 14px;
+    margin-right: -15px;
+    overflow: hidden;
+}
+/*Footer Ended*/
+
+.list-inline li:first-child {
+	margin-left: 5px;
+}
+/*Search Bar*/
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./../../assets/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: left;
+	}
+/*Adjusting the input text in the search bar*/
+input[type=text]:focus {
+    width: 100%;
+	}
+/*Search bar end*/
+
+/*Defining the copyright */
+@media (max-width: 400px) {
+   #copyright {
+      text-align: center;
+      width: 100%;
+ 			height:90px;
+ 		}
+   }
+
+/*Adjusting the slider to become responsive*/
+@media (max-width: 768px) {
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+	#myCarousel .item {
+		height: 310px;		
+	}
+
+	/*#slide1 {
+		background: url('../images/carousel_small_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../images/carousel_small_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../images/carousel_small_03.jpg') top center no-repeat;
+	}*/
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item {
+		height: 500px;		
+	}
+
+	/*#slide1 {
+		background: url('../images/carousel_large_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../images/carousel_large_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../images/carousel_large_03.jpg') top center no-repeat;
+	}*/
+}
